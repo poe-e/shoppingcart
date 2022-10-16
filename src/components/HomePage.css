@@ -1,0 +1,41 @@
+h1{
+    color: whitesmoke;
+    margin: 0;
+    font-size: 65px;
+}
+p{
+    font-size: 25px;
+    margin: 0;
+}
+.mainText{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 250px 80px;
+}
+.background{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.buy-now{
+    border: none;
+    background: rgb(228, 228, 228);
+    text-decoration: none;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: 450;
+    letter-spacing: 1px;
+    color: black;
+    width: 10%;
+    margin: 10px 0 0 0;
+
+}
+.buy-now:hover{
+    border: 2px solid black;
+}

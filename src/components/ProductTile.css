@@ -1,0 +1,22 @@
+img{
+    width: 500px;
+    height: 300px;
+    /* z-index: -5; */
+    overflow: hidden;
+    background-color: rgb(226, 224, 224);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.card-image{
+    /* width: 450px; */
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}

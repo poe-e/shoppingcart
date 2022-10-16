@@ -1,0 +1,38 @@
+h1{
+    font-weight: 350;
+    font-size: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.shopcartContent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+.shopPage{
+    display: flex;
+}
+.shopPage_side{
+    display: flex;
+    margin: 0px 100px 0px 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+.shopPage_main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+.productItem{
+    background-color: aliceblue;
+}

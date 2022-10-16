@@ -1,11 +1,17 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Catalog from './components/Catalog'
+import HomePage from './components/HomePage';
 
 const App = () =>{
   return(
-    <div>
-      <h1>Hello from App</h1>
-      <a href='/Profile'>Go to Profile</a>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="catalog" element={<Catalog />}/>
+        <Route path="catalog/:categoryId" element={<Catalog />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
