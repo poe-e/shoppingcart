@@ -27,7 +27,8 @@ a{
   padding: 0;
   font: inherit;
   cursor: pointer;
-  background-color: rgb(228, 228, 228);
+  background-color: inherit;
+  /* background-color: rgb(228, 228, 228); */
   font-weight: 100;
   font-size: 30px;
 }

@@ -1,22 +1,25 @@
 img{
-    width: 500px;
-    height: 300px;
-    /* z-index: -5; */
-    overflow: hidden;
-    background-color: rgb(226, 224, 224);
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
+    /* width: 15vw; */
+    height: 20vw;
+
 }
 .card-image{
-    /* width: 450px; */
+    position: relative;
+    width: 23vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 224, 224);
 }
 .card-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
 }

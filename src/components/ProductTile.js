@@ -1,18 +1,19 @@
 import './ProductTile.css'
-import image from '../images/ryzen-5600X.png';
 
-const ProductTile = () =>{
+const ProductTile = (props) =>{
 
 
+    let source = props.item.imgPath;
 
     return(
     <div className="card">
         <div className="card-image">
-            <img src={image} alt='Amd Processor'/>
+            <img src={source} alt='Amd Processor'/>
         </div>
         <div className="card-content">
-            <p className="title product-title">Ryzen 5600X</p>
-            <p style={{fontSize:'20px'}}>$500.00</p>
+            <p className="title product-title">{props.item.name}</p>
+            <p style={{fontSize:'20px'}}>{props.item.price}</p>
+            <button className='addToCart'>Add to Cart</button>
         </div>
     </div>
     )
