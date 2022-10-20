@@ -4,9 +4,11 @@ import Cart from './Cart'
 import './products.css'
 import ProductTile from './ProductTile';
 import data from '../data/products.json'
+import React, { useState } from 'react';
 
 const Catalog = (props) => {
 
+    const [toggle, setToggle] = useState(false);
 
     const textStyling = {
         color: 'black',
@@ -27,15 +29,21 @@ const Catalog = (props) => {
         filteredData = data.products.filter(item => item.type === 'memory')
     }
 
+    function toggleCart(){
+        setToggle(!toggle);
+        // console.log(toggle)
+    }
+
     return(
         <div className='shopcartContent'>
-            <NavBar textColor={textStyling}/>
-            <Cart />
+            {/* {toggle && <Cart toggleCart={toggleCart}/>} */}
+            <Cart toggleCart={toggleCart} isOpen={toggle}/>
+            <NavBar textColor={textStyling} toggleCart={toggleCart}/>
             <div className='shopPage'>
                 <div className='shopPage_side'>
                     <div>
-                        <p style={{fontSize: '40px'}}>Shop/</p>
-                        <p style={{fontSize: '22px'}}>{categoryId}</p>
+                        <p style={{fontSize: '2.5vw'}}>Shop/</p>
+                        <p style={{fontSize: '1.2vw'}}>{categoryId}</p>
                         {/* <div style={{fontSize: '40px'}}>
                             All Products
                         </div> */}
@@ -49,7 +57,7 @@ const Catalog = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className='shopPage_main'>
+            <div className='shopPage_main'>
                     {filteredData.map((item) => (
                         <ProductTile item={item} key={item.id}/>
                     ))}

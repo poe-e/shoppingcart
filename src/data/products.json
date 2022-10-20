@@ -61,21 +61,21 @@
             "imgPath":"/images/kingston-fury-ddr4-rgb.png",
             "price":"$69.99",
             "type":"memory",
-            "id":8
+            "id":9
         },
         {
             "name":"Kingston HyperX Predator DDR4",
             "imgPath":"/images/kingston-predator-ddr4.png",
             "price":"$49.99",
             "type":"memory",
-            "id":9
+            "id":10
         },
         {
             "name":"Kingston HyperX Predator DDR4 RGB",
             "imgPath":"/images/kingston-predator-ddr4-rgb.png",
             "price":"$65.99",
             "type":"memory",
-            "id":10
+            "id":11
         }
     ]
 }

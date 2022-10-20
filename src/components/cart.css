@@ -1,13 +1,61 @@
-#cd-cart{
+
+
+.cart-open{
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0vw;
+    width: 20vw;
+    height: 100vh;
+    z-index: 1;
+
+    background-color: rgb(228, 228, 228);
+
+    transition: right 0.85s ease-in-out 
+}
+.cart-close{
+    position: fixed;
+    top: 0;
+    right: -50vw;
+    width: 20vw;
+    height: 100vh;
+    z-index: 1;
+
+    background-color: rgb(228, 228, 228);
+    transition: right 0.5s ease-in-out 
+}
+.cartBackDrop-open{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
     height: 100%;
+    background-color: black;
 
-    padding-top: 50px;
+    /* transition: left 0.85s ease-in-out 0s; */
+    animation: fadeIn 1s;
+    opacity: 0.8;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 0.8;}
+}
 
-    overflow-y: auto;
-    -webket-overflow-scrolling: touch;
 
-    transition: right 0.3s;
+.cartBackDrop-close{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    animation: fadeOut 0.4s;
+    transition: left 0.001s ease-in-out 0s;
+    transition-delay: 0.41s;
+    /* opacity: 0; */
+    left: -100vw;
+}
+@keyframes fadeOut{
+    0% { opacity: 0.8;}
+    100% { opacity: 0;}
 }

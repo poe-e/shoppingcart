@@ -1,5 +1,6 @@
 import image from '../images/rtx4090.jpg';
 import NavBar from './NavBar';
+import Cart from './Cart';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
 
     return(
       <div>
+        <Cart/>
         <div className='background' style={{backgroundImage: `url(${image})`}}>
             <NavBar textColor = {textStyling}/>
             <div className='mainText'>

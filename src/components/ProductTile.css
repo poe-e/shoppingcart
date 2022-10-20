@@ -1,7 +1,10 @@
 img{
-    /* width: 15vw; */
+    /* width: 100vw; */
     height: 20vw;
 
+}
+.product-title{
+    font-size: 1.2vw;
 }
 .card-image{
     position: relative;
@@ -16,6 +19,7 @@ img{
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+    font-size: small;
 }
 .card{
     display: flex;
