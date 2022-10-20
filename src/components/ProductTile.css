@@ -1,6 +1,6 @@
 img{
     /* width: 100vw; */
-    height: 20vw;
+    height: 15vw;
 
 }
 .product-title{
@@ -8,8 +8,8 @@ img{
 }
 .card-image{
     position: relative;
-    width: 23vw;
-    height: 20vw;
+    width: 20vw;
+    height: 15vw;
     display: flex;
     justify-content: center;
     background-color: rgb(226, 224, 224);

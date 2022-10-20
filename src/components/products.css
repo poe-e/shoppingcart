@@ -43,6 +43,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    justify-items: center;
     gap: 30px;
     width: 80%;
 }
@@ -56,5 +57,5 @@ body{
     cursor: pointer;
     background-color: rgb(228, 228, 228);
     font-weight: 100;
-    font-size: 25px;
+    font-size: 1.4vw;
   }

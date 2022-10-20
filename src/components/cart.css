@@ -53,7 +53,7 @@
     transition: left 0.001s ease-in-out 0s;
     transition-delay: 0.41s;
     /* opacity: 0; */
-    left: -100vw;
+    left: -1000vw;
 }
 @keyframes fadeOut{
     0% { opacity: 0.8;}
