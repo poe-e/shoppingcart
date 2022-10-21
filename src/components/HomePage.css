@@ -11,7 +11,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 6px;
-    padding: 250px 80px;
+    padding: 230px 80px;
 }
 .background{
     min-height: 100vh;

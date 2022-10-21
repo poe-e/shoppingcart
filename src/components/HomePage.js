@@ -2,6 +2,7 @@ import image from '../images/rtx4090.jpg';
 import NavBar from './NavBar';
 import Cart from './Cart';
 import './HomePage.css';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
 
@@ -17,7 +18,8 @@ const HomePage = () => {
             <div className='mainText'>
               <h1>Nvidia RTX 4090</h1>
               <p style={{color:'whitesmoke'}}>The next big thing, get yours before the scalpers!</p>
-              <a href='/shoppingcart/catalog' className='buy-now'>Buy Now</a>
+              <Link className='buy-now' to='/catalog'>Buy Now</Link>
+              {/* <a href='/shoppingcart/catalog' className='buy-now'>Buy Now</a> */}
             </div>
         </div>
       </div>

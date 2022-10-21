@@ -4,7 +4,6 @@ const ProductTile = (props) =>{
 
 
     let source = props.item.imgPath;
-    console.log(source)
 
     return(
         <div className="card">

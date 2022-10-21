@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import NavBar from './NavBar';
 import Cart from './Cart'
 import './products.css'
@@ -15,6 +15,7 @@ const Catalog = (props) => {
       }
     let filteredData;
     let { categoryId } = useParams();
+
     if(categoryId === undefined) categoryId = 'All Products'; filteredData = data.products;
     if(categoryId === 'graphicsCards') {
         categoryId = 'GPUs'
@@ -49,10 +50,14 @@ const Catalog = (props) => {
                     </div>
                     <div>
                         <ul>
-                            <a href='/shoppingcart/catalog'>All</a>
+                            <Link to='/catalog'>All</Link>
+                            <Link to='/catalog/processors'>Processors</Link>
+                            <Link to='/catalog/graphicsCards'>GPUs</Link>
+                            <Link to='/catalog/memory'>Memory</Link>
+                            {/* <a href='/shoppingcart/catalog'>All</a>
                             <a href='/shoppingcart/catalog/processors'>Processors</a>
                             <a href='/shoppingcart/catalog/graphicsCards'>GPUs</a>
-                            <a href='/shoppingcart/catalog/memory'>Memory</a>
+                            <a href='/shoppingcart/catalog/memory'>Memory</a> */}
                         </ul>
                     </div>
                 </div>
