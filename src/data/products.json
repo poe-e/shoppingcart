@@ -2,77 +2,77 @@
     "products":[
         {
             "name":"AMD Ryzen 5600X",
-            "imgPath":"/images/ryzen-5600X.png",
+            "imgPath":"/shoppingcart/images/ryzen-5600X.png",
             "price":"$249.99",
             "type":"cpu",
             "id":1
         },
         {
             "name":"AMD Ryzen 7 5800X",
-            "imgPath":"/images/ryzen-5800X.png",
+            "imgPath":"/shoppingcart/images/ryzen-5800X.png",
             "price":"$499.99",
             "type":"cpu",
             "id":2
         },
         {
             "name":"Ryzen 5900X",
-            "imgPath":"/images/ryzen-5900X.png",
+            "imgPath":"/shoppingcart/images/ryzen-5900X.png",
             "price":"$799.99",
             "type":"cpu",
             "id":3
         },
         {
             "name":"Nvidia GeForce RTX 3070",
-            "imgPath":"/images/rtx-3070.png",
+            "imgPath":"/shoppingcart/images/rtx-3070.png",
             "price":"$799.99",
             "type":"gpu",
             "id":4
         },
         {
             "name":"Nvidia GeForce RTX 3080",
-            "imgPath":"/images/rtx-3080.png",
+            "imgPath":"/shoppingcart/images/rtx-3080.png",
             "price":"$999.99",
             "type":"gpu",
             "id":5
         },
         {
             "name":"Nvidia GeForce RTX 3090",
-            "imgPath":"/images/rtx-3090.png",
+            "imgPath":"/shoppingcart/images/rtx-3090.png",
             "price":"$1199.99",
             "type":"gpu",
             "id":6
         },
         {
             "name":"Kingston HyperX FURY DDR3",
-            "imgPath":"/images/kingston-fury-ddr3.png",
+            "imgPath":"/shoppingcart/images/kingston-fury-ddr3.png",
             "price":"$49.99",
             "type":"memory",
             "id":7
         },
         {
             "name":"Kingston HyperX FURY DDR4",
-            "imgPath":"/images/kingston-fury-ddr4.png",
+            "imgPath":"/shoppingcart/images/kingston-fury-ddr4.png",
             "price":"$59.99",
             "type":"memory",
             "id":8
         },
         {
             "name":"Kingston HyperX FURY DDR4 RGB",
-            "imgPath":"/images/kingston-fury-ddr4-rgb.png",
+            "imgPath":"/shoppingcart/images/kingston-fury-ddr4-rgb.png",
             "price":"$69.99",
             "type":"memory",
             "id":9
         },
         {
             "name":"Kingston HyperX Predator DDR4",
-            "imgPath":"/images/kingston-predator-ddr4.png",
+            "imgPath":"/shoppingcart/images/kingston-predator-ddr4.png",
             "price":"$49.99",
             "type":"memory",
             "id":10
         },
         {
             "name":"Kingston HyperX Predator DDR4 RGB",
-            "imgPath":"/images/kingston-predator-ddr4-rgb.png",
+            "imgPath":"/shoppingcart/images/kingston-predator-ddr4-rgb.png",
             "price":"$65.99",
             "type":"memory",
             "id":11
