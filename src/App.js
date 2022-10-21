@@ -5,7 +5,7 @@ import HomePage from './components/HomePage';
 
 const App = () =>{
   return(
-    <HashRouter basename='shoppingcart'>
+    <HashRouter basename='/'>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/catalog" element={<Catalog />}/>
