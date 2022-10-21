@@ -36,7 +36,6 @@ const Catalog = (props) => {
 
     return(
         <div className='shopcartContent'>
-            {/* {toggle && <Cart toggleCart={toggleCart}/>} */}
             <Cart toggleCart={toggleCart} isOpen={toggle}/>
             <NavBar textColor={textStyling} toggleCart={toggleCart}/>
             <div className='shopPage'>
@@ -50,10 +49,10 @@ const Catalog = (props) => {
                     </div>
                     <div>
                         <ul>
-                            <a href='/catalog'>All</a>
-                            <a href='/catalog/processors'>Processors</a>
-                            <a href='/catalog/graphicsCards'>GPUs</a>
-                            <a href='/catalog/memory'>Memory</a>
+                            <a href='/shoppingcart/catalog'>All</a>
+                            <a href='/shoppingcart/catalog/processors'>Processors</a>
+                            <a href='/shoppingcart/catalog/graphicsCards'>GPUs</a>
+                            <a href='/shoppingcart/catalog/memory'>Memory</a>
                         </ul>
                     </div>
                 </div>

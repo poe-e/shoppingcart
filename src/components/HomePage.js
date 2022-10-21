@@ -17,7 +17,7 @@ const HomePage = () => {
             <div className='mainText'>
               <h1>Nvidia RTX 4090</h1>
               <p style={{color:'whitesmoke'}}>The next big thing, get yours before the scalpers!</p>
-              <a href='/catalog' className='buy-now'>Buy Now</a>
+              <a href='/shoppingcart/catalog' className='buy-now'>Buy Now</a>
             </div>
         </div>
       </div>
