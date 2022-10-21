@@ -13,7 +13,7 @@ const HomePage = () => {
       <div>
         <Cart/>
         <div className='background' style={{backgroundImage: `url(${image})`}}>
-            <NavBar textColor = {textStyling}/>
+            <NavBar textColor = {textStyling} textSize={'2vw'}/>
             <div className='mainText'>
               <h1>Nvidia RTX 4090</h1>
               <p style={{color:'whitesmoke'}}>The next big thing, get yours before the scalpers!</p>

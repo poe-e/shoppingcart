@@ -1,5 +1,14 @@
-
-
+#cartHeader{
+    font-size: 3vw;
+    font-weight: 350;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#cartEmpty{
+    font-size: 2vw;
+}
+.checkout-btn{
+    font-size: 3vw;
+}
 .cart-open{
     position: fixed;
     top: 0;
@@ -7,6 +16,12 @@
     width: 20vw;
     height: 100vh;
     z-index: 1;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
 
     background-color: rgb(228, 228, 228);
 
@@ -50,9 +65,10 @@
     height: 100%;
     background-color: black;
     animation: fadeOut 0.4s;
+
     transition: left 0.001s ease-in-out 0s;
-    transition-delay: 0.41s;
-    /* opacity: 0; */
+    transition-delay: 0.4s;
+    opacity: 0;
     left: -1000vw;
 }
 @keyframes fadeOut{

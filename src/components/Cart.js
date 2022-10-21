@@ -17,12 +17,10 @@ const Cart = (props) => {
         <div>
             <div className={backDrop} onClick={props.toggleCart}></div>
             <div className={cart}>
-                <h2>Cart</h2>
-
-                <div className="cd-cart-total">
-                    <p>Total <span>$39.96</span></p>
-                </div> 
-
+                <div>
+                    <h2 id='cartHeader' >Your Cart</h2>
+                    <p id='cartEmpty'>Your cart is empty</p>
+                </div>
                 <a href="#0" className="checkout-btn">Checkout</a>
             </div> 
         </div>
