@@ -7,7 +7,7 @@ const App = () =>{
   return(
     <HashRouter basename='shoppingcart'>
       <Routes>
-        <Route exact path="/#/" element={<HomePage />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route path="/catalog" element={<Catalog />}/>
         <Route path="/catalog/:categoryId" element={<Catalog />}/>
       </Routes>
